@@ -28,7 +28,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const botName = process.env.BOT_NAME || "Zyra";
+const botName = process.env.BOT_NAME || "Bot name";
 const replyChance = parseFloat(process.env.REPLY_CHANCE) || 0.05;
 
 client.once('ready', () => {
@@ -107,7 +107,7 @@ client.login(process.env.DISCORD_TOKEN);
 DISCORD_TOKEN=seu_token
 OPENAI_API_KEY=sua_chave
 OPENAI_MODEL=gpt-4-turbo
-BOT_NAME=Zyra
+BOT_NAME=Nome do seu bot
 REPLY_CHANCE=0.05
 ```
 
