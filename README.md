@@ -7,7 +7,7 @@ env
 DISCORD_TOKEN=seu_token_aqui
 OPENAI_API_KEY=sua_api_aqui
 OPENAI_MODEL=gpt-4-turbo
-BOT_NAME=Zyra
+BOT_NAME=Nome do seeu bot
 REPLY_CHANCE=0.05
 ```
 # ✅ Código index.js
